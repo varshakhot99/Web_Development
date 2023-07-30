@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style01.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="register">
+                <h2>Registration Details</h2>
+                <form id="register" method="post">
+                    <label>Full Name : </label>
+                    <br>
+                    <input type="text" name="fname" id="name" placeholder="Enter Your Name">
+                    <br><br>
+                    <label>Mobile No. : </label>
+                    <br>
+                    <input type="number" name = "MobileNumber" id = "MobNo" placeholder="Enter Mobile Number">
+                    <br><br>
+                    <label>Email : </label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                    <br><br>
+                    <label>Address : </label>
+                    <br>
+                    <textarea name="Address" id="Address" cols="20" rows="3"></textarea>
+                    <br><br>
+                    <label>Gender : </label><br>
+                    <input type="radio" id = "Male" name = "Gender" value = "Male">
+                    <label for="Male">Male</label>
+
+                    <input type="radio" id = "Female" name = "Gender" value = "Female">
+                    <label for="Female">Female</label>
+
+                    <input type="radio" id = "Other" name = "Gender" value = "Other">
+                    <label for="Other">Other</label><br><br>
+
+                    <label>Password : </label>
+                    <br>
+                    <input type="password" id="password" name="password" placeholder="Enter Password">
+                    <br><br>
+
+                    <button class="btnn"><a href="#">Register</a></button>
+                    <button class="btnn"><a href="#">Reset</a></button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

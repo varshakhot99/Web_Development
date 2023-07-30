@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<htm lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Patient Details Form</title>
+        <link rel="stylesheet" href="style02.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="info">
+                <h2>Patient Details</h2>
+                <form id="info" method="post">
+                    <label>Full Name : </label><br>
+                    <input type="text" id="name" name="fname" placeholder="Enter Name">
+                    <br><br>
+                    <label>Mobile No. : </label><br>
+                    <input type="number" id="number" placeholder="Enter Mobile No.">
+                    <br><br>
+                    <label>Email Id</label><br>
+                    <input type="email" id="email" placeholder="Enter Valid Email">
+                    <br><br>
+                    <label>Gender : </label><br>
+                    <input type="radio" id = "Male" name = "Gender" value = "Male">
+                    <label for="Male">Male</label>
+
+                    <input type="radio" id = "Female" name = "Gender" value = "Female">
+                    <label for="Female">Female</label>
+
+                    <input type="radio" id = "Other" name = "Gender" value = "Other">
+                    <label for="Other">Other</label><br><br>
+                    <label>Address : </label><br>
+                    <textarea name="Address" id="Address" cols="20" rows="3"></textarea>
+                    <br><br>
+
+                    <input type="button" value="Go Back">
+                </form>
+            </div>
+        </div>
+    </body>
+</htm>

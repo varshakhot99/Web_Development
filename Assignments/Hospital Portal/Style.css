@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.center{
+    width: 430px;
+    margin: 130px auto;
+    position: relative;
+    
+}
+.center .header{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding: 25px 0 30px 25px;
+    background: #5c1769;
+    border-bottom: 1px solid #370e3f;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #6d1c7d;
+    background: transparent;
+    background-image: url(../Assets/blur.jpg);
+}
+
+.center .form{
+    position: absolute;
+    background: transparent;
+    background-color: #5c1769;
+    width: 100%;
+    padding: 50px 10px 0 30px;
+    box-sizing: border-box;
+    border: 1px solid #6d1c7d;
+    border-radius: 0 0 5px 5px;
+    background: transparent;
+    background-image: url(../Assets/blur.jpg);
+}
+
+.form input{
+    height: 50px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    font-size: 18px;
+    outline: none;
+}
+
+.form input[type="password"]{
+    margin-top: 25px;
+}
+
+.btnn{
+    border: none;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 75px;
+    cursor: pointer;
+    transition: 3s;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.btnn:hover{
+    background-color: darksalmon;
+    transition: 0.7s;
+}
+
