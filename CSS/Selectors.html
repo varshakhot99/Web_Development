@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <head>
+        <title>Selectors</title>
+        <style>
+            #Demo{
+                text-decoration: underline;
+                text-align: center;
+                color: red;
+            }
+            #para01{
+                background-color: aqua;
+            }
+            .Item-Block{
+                background-color: violet;
+                border: 1px solid;
+                padding: 10px;
+            }
+            .Item-Group{
+                color:white;
+            }
+            .div-main{
+                background-color: #acc;
+                border: 1px solid;
+                padding: 10px;
+            }
+            h4{
+                color: blueviolet;
+            }
+            section{
+                border: 1px solid;
+                padding: 10px;
+                width: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <p>This is my first Para</p>
+            <p id = "Demo">This is my second para</p>
+            <p>This is my third para</p>
+            <p id="para01">This is my fourth para</p>
+
+            <h1>Hello Selectors</h1>
+            <div class="div-main">
+                <div class="Item-Block">
+                    <p class="Item-Group">Product</p>
+                    <p>Item</p>
+                    <p>Items</p>
+                    <p>Data</p>
+
+                    <h2>Tag Selector</h2>
+                        <main>
+                        <h4>Product Data 01</h4>
+                        <h4>Product Data 02</h4>
+                        <h4>Product Data 03</h4>
+                        <h4>Product Data 04</h4>
+                        </main>
+                </div>
+            </div>
+
+            <div class="div-main">
+                <div class="Item-Block">
+                    <p>Product</p>
+                    <p>Item</p>
+                    <p>Items</p>
+                    <p>Data</p>
+
+                    <h2>Tag Selector</h2>
+                        <h4>Item Data 01</h4>
+                        <h4>Item Data 02</h4>
+                        <h4>Item Data 03</h4>
+                        <h4>Item Data 04</h4>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

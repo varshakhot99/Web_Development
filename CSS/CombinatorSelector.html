@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Combinator Selector</title>
+        <style>
+            body{
+                margin: 20px;
+            }
+            #Container{
+                padding: 15px;
+                border: 2px solid blue;
+            }
+            #Container>section{
+                border: 1px solid green;
+                padding: 20px;
+               /* height: 100vh;*/
+            }
+            .Main-Container{
+                border: 2px solid red;
+                margin: 5px;
+                padding: 10px;
+            }
+           /* p{
+                text-align: center;
+            }*/
+            .Main-Child-div{
+                display: inline-block;
+                border: 2px solid brown;
+                width: 49%;
+            }
+            .main-one p{
+                color: orange;
+                text-align: center;
+                padding: 10px;
+            }
+            /*.main p{
+                color: blue;
+                text-align: center;
+                padding: 10px;
+            }*/
+            section>.Container01{
+                background-color: aqua;
+            }
+            .main div{
+                background-color: grey;
+            }
+            .main div>p{
+                text-align: center;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Combinator Selectors</h1>
+        <section id="Container">
+            <section class="Container01">
+                <main class = "Main-Container main-one">
+                    <div id="Div01" class = "Main-Child-div">
+                        <p>Demo Data 01</p>
+                        <p>Demo Data 02</p>
+                        <p>Demo Data 03</p>
+                        <p>Demo Data 04</p>
+                    </div>
+                    <div id="Div01" class = "Main-Child-div">
+                        <p>Text Data 01</p>
+                        <p>Text Data 02</p>
+                        <p>Text Data 03</p>
+                        <p>Text Data 04</p>
+                    </div>
+                </main>
+                <main class = "Main-Container main">
+                    <div id="Div01" class = "Main-Child-div">
+                        <p>Demo Data 01</p>
+                        <p>Demo Data 02</p>
+                        <p>Demo Data 03</p>
+                        <p>Demo Data 04</p>
+                    </div>
+                    <div id="Div01" class = "Main-Child-div">
+                        <p>Text Data 01</p>
+                        <p>Text Data 02</p>
+                        <p>Text Data 03</p>
+                        <p>Text Data 04</p>
+                    </div>
+                </main>
+            </section>
+            <section class="Container01">
+                <article>
+                     <img src="../CSS/Kohli.jpg"alt="Kohli" height="50" width="50">
+                     <div>
+                        <p>I am varsha.I am from Tulsan. I have completed my graduation in BCA. </p>
+                     </div>
+                </article>
+            </section>
+        </section>
+    </body>
+</html>
